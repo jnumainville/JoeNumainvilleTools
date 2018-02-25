@@ -1,0 +1,16 @@
+Package: JoeNumainvilleTools
+Title: Tools Package
+Version: 0.0.0.9000
+Authors@R: person("Joe", "Numainville", email = "numai004@umn.edu", role = c("aut", "cre"))
+Description: Tools package.
+Depends: R (>= 3.4.3)
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports:
+    ggplot2 (>= 2.2.1),
+    dplyr (>= 0.7.4)
+RoxygenNote: 6.0.1
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
