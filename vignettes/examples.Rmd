@@ -61,8 +61,8 @@ slice filters a column in some data so it meets the specified value
 x <- c (1,2,2,3)
 y <- c (2,2,2,2)
 df <- data.frame(x,y)
-slice(df, df$x, 2)
-slice(df, df$y, 2)
+JoeNumainvilleTools::slice(df, df$x, 2)
+JoeNumainvilleTools::slice(df, df$y, 2)
 ```
 
 standardize calculates (x - mean(x))/sd(x) for each column in a given matrix
