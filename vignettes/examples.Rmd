@@ -9,6 +9,9 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 ## Examples
+```{r}
+library(JoeNumainvilleTools)
+```
 
 %xax% computes the transverse of a vector x multiplied by the inverse of matrix a multiplied by x
 ```{r}
