@@ -12,7 +12,7 @@ vignette: >
 ```{r}
 library(JoeNumainvilleTools)
 library(ggplot2)
-llibrary(dplyr)
+library(dplyr)
 ```
 
 %xax% computes the transverse of a vector x multiplied by the inverse of matrix a multiplied by x
