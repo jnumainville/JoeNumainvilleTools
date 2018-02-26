@@ -11,6 +11,8 @@ vignette: >
 ## Examples
 ```{r}
 library(JoeNumainvilleTools)
+library(ggplot2)
+llibrary(dplyr)
 ```
 
 %xax% computes the transverse of a vector x multiplied by the inverse of matrix a multiplied by x
